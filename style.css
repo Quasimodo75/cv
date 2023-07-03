@@ -1,0 +1,459 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+  color: rgb(50, 50, 50);
+  font-family: sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  padding: 20px;
+  height: 100px;
+  z-index: 100;
+  text-align: right;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  width: 100vw;
+}
+
+nav a {
+  /* color: rgba(0, 29, 246, 0.686); */
+  text-decoration: none;
+  margin-right: 2rem;
+  transition: 0.5s;
+   font-family: monospace; 
+ 
+}
+
+.main {
+  padding: 600px;
+}
+nav a :hover {
+  background-color: yellow;
+}
+
+section {
+  display: block;
+  
+}
+
+body,
+html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url(https://images.unsplash.com/photo-1617526738882-1ea945ce3e56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1795&q=80);
+  width: 1720px;
+  height: 550px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  /* position:sticky; */
+  scroll-behavior: smooth;
+  right: 0;
+  margin: 20px;
+  max-width: 600px;
+  padding: 16px;
+  background-color: white;
+  text-align: right;
+}
+
+h2 {
+  text-align: right;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #04aa6d;
+  color: rgb(255, 255, 255);
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+/* .btn:hover {
+    opacity: 1;
+  } */
+.part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  width: 600px;
+  padding-left: 6rem;
+
+  border-radius: 8px;
+  margin-top: 150px;
+  position: absolute;
+}
+
+.login-form-1 {
+  /* padding: 9%; */
+  background: #1d2226;
+  margin-top: 10rem;
+  margin-left: 15rem;
+  align-items: center;
+  box-shadow: 0 5px 8px 0 rgba(178, 173, 173, 0.2),
+    0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.login-form-2 {
+  /* padding: 9%; */
+  margin-top: 10rem;
+  margin-right: 15rem;
+  align-items: center;
+  background: white;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3 {
+  text-align: center;
+  color: #fff;
+}
+h5 {
+  text-align: center;
+  font-family: cursive;
+}
+
+.vl {
+  border-left: 4px solid  rgb(3, 3, 193);
+  height: 655px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.title {
+  text-align: center;
+  padding-right: 20rem;
+  font-size: 500px;
+  font-family: monospace;
+}
+.job {
+  text-align: center;
+  padding-right: 30rem;
+  margin-top: 1rem;
+  font-size: 20px;
+}
+h6 {
+  text-align: left;
+  margin: 20px;
+  /* background-color: #842ef573; */
+  height: 100px;
+  /* width: 100vw; */
+  padding-right: 45rem;
+
+  /* display:grid;
+    justify-content: space-between;
+    align-items: center; */
+  /* position: sticky; */
+  /* top: 0; */
+  z-index: 100;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  /* font-size: 20rem; */
+}
+.loop {
+  text-align: right;
+  margin-top: -4rem;
+  padding-left: 40rem;
+  padding-right: 5rem;
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+}
+.title2 {
+  /* padding-right:-50rem;  */
+  /* float: left; */
+  padding-left: 25rem;
+  font-size: 500px;
+  font-family: monospace;
+}
+h3 {
+  font-family: monospace;
+}
+.job2 {
+  text-align: center;
+  padding-right: 20rem;
+  margin-top: -10rem;
+  font-size: 20px;
+}
+.loop2 {
+  text-align: left;
+  margin-top: -4rem;
+  padding-left: 55rem;
+  padding-right: 5rem;
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+}
+.job3 {
+  text-align: center;
+  padding-right: 20rem;
+  margin-top: -6rem;
+  font-size: 20px;
+}
+.loop3 {
+  /* margin-top: 4rem;   
+  /* padding-left: 40rem; */
+  text-align: left;
+  margin-top: -6rem;
+  padding-left: 55rem;
+  padding-right: 5rem;
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+}
+.title3 {
+  padding-right: 46rem;
+  padding-right: 20rem;
+  font-size: 500px;
+  font-family: monospace;
+}
+.titleimg {
+  float: left;
+  margin-top: -25rem;
+  padding-left: -15rem;
+}
+.titleimg2 {
+  /* float:left; */
+  /* margin-top: 1rem; */
+  /* padding-left: 15rem; */
+  /* margin-top: -rem; */
+  position: absolute;
+  display: flex;
+  /* z-index: 1; */
+}
+.titleimg3 {
+  float: center;
+  padding-left: -15rem;
+}
+.edu1 {
+  text-align: left;
+  padding-right: 25rem;
+  font-size: 250px;
+  font-family: monospace;
+}
+.time1 {
+  text-align: center;
+  padding-right: 20rem;
+  margin-top: -6rem;
+  font-size: 20px;
+}
+.edu2 {
+  text-align: center;
+  padding-right: 20rem;
+  margin-top: 10rem;
+  font-size: 20px;
+}
+.time2 {
+  text-align: center;
+  padding-right: 20rem;
+  margin-top: -6rem;
+  font-size: 20px;
+}
+.edu3 {
+  text-align: center;
+  padding-right: 20rem;
+  margin-top: 10rem;
+  font-size: 20px;
+}
+.time3 {
+  text-align: center;
+  padding-right: 20rem;
+  margin-top: -6rem;
+  font-size: 20px;
+}
+.skills {
+  
+  color: rgba(0, 7, 223, 0.705);
+  padding-right: 2rem;
+  text-align: center;
+  background-color: #182153;
+}
+.kwazi {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+.kwazi {
+  margin-top: -20rem;
+}
+.pic1 {
+  margin-top: -18rem;
+  padding-left: 65rem;
+}
+.pic2 {
+  padding-left: 50rem;
+  margin-top: -20rem;
+}
+.pic3 {
+  margin-top: -27rem;
+  padding-right: 65rem;
+}
+.int {
+  text-align: center;
+}
+.container {
+  /* padding-left: 100rem; */
+  align-content: left;
+}
+.pic2 {
+  padding-left: 90rem;
+  
+}
+
+.pos {
+  margin-top: -2.5rem;
+  padding-left: 3rem;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 450px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #6baff8;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #076ddac9;
+}
+
+.containers {
+  width: 600px;
+  border-radius: 5px;
+  background-color: #f2f2f2da;
+  padding: 20px;
+  gap: 20px;
+}
+
+.t {
+  display: flex;
+  text-align: center;
+  gap: 13px;
+  padding-left: 30px;
+}
+
+.ts {
+  display: flex;
+  justify-content: center;
+}
+.pic2 {
+  padding-left: 70rem;
+  margin-top: -31.5rem;
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: rgba(6, 3, 3, 0); /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+.top{
+width: 100px;
+font-size: 30px;
+margin-right: 30rem;
+font-family: monospace;
+font-weight: 300;
+}
+
+.section{
+
+  font-size: 1px;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  background-color: rgb(255, 255, 255); /* Set a background color */
+  color: rgb(0, 0, 0); /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 15px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  box-shadow: 0 0 3px 1px #182153;
+  
+}
+
+#myBtn:hover {
+  transform: scale(1.10);
+  background-color: #ffffff; /* Add a dark-grey background on hover */
+  box-shadow:0 0 3px 1px #000000;
+ 
+  
+}
+
+p1{
+
+ font-size: 1.1rem; 
+ text-align: justify;
+ padding-left: 32rem;
+}
+.skillls{
+
+  padding-top: 9rem;
+}
+.line{
+
+  padding-bottom: .5Frem;
+}
+#btn{
+
+  color:blue; 
+  background-color: #acabffc8;
+  width: 10rem;
+  border-radius: 2rem;
+}
